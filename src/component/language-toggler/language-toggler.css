@@ -1,0 +1,16 @@
+.chose-lang {
+  cursor: pointer;
+  padding: 1px 5px;
+  height: fit-content;
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+  font-size: 15px;
+  font-weight: normal;
+}
+
+@media (max-width: 850px) {
+  .chose-lang {
+    padding: 1px 3px;
+    font-size: 12px;
+  }
+}

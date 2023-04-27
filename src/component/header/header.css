@@ -1,0 +1,35 @@
+header {
+  padding: 20px 0;
+  box-shadow: 0 2px 2px rgb(0 0 0 / 10%);
+  background-color: var(--black-color) !important;
+  z-index: 8;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.logo {
+  cursor: pointer;
+}
+.logo span {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+@media (max-width: 1000px) {
+  .logo span {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 850px) {
+  .logo span {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 400px) {
+  .logo span {
+    font-size: 15px;
+  }
+}

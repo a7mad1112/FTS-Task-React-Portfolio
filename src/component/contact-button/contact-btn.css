@@ -1,0 +1,44 @@
+.contact-btn {
+  background-color: var(--blue-color);
+  border: none;
+  color: var(--white-color);
+  outline: none;
+  padding: 8px 25px 6px;
+  position: relative;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.contact-btn::before,
+.contact-btn::after {
+  border: 0 solid transparent;
+  transition: all 0.3s;
+  content: '';
+  height: 0;
+  position: absolute;
+  width: 24px;
+}
+
+.contact-btn::before {
+  border-top: 2px solid var(--white-color);
+  right: 0;
+  top: -4px;
+}
+
+.contact-btn::after {
+  border-bottom: 2px solid var(--white-color);
+  bottom: -4px;
+  left: 0;
+}
+
+.contact-btn:hover::before,
+.contact-btn:hover::after {
+  width: 100%;
+}
+
+@media (max-width: 1000px) {
+  .contact-btn {
+    padding: 8px 20px 6px;
+    font-size: 17px;
+  }
+}

@@ -1,0 +1,39 @@
+/* Light Mode */
+.toggle-display-mode {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  width: 80px;
+  height: 40px;
+  border-radius: 20px;
+  /* background-color: red; */
+}
+
+.toggle-display-mode i {
+  width: 50%;
+  line-height: 35px;
+  text-align: center;
+  font-size: 20px;
+  z-index: 1;
+}
+
+.toggle-display-mode .bxs-sun {
+  color: #fafafa;
+}
+
+.toggle-display-mode .bxs-moon {
+  color: #151d2a;
+}
+
+.toggle-display-mode .ball {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  left: calc(100% - 35px);
+  background-color: var(--blue-color);
+  top: 50%;
+  transform: translateY(-50%);
+  transition: 0.4s;
+}
