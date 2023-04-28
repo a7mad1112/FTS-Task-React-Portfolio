@@ -2,14 +2,15 @@ import React, { useContext } from "react";
 import { languageContext } from "../Context/languageContext";
 import ContactButton from "../contact-button/ContactButton";
 import "./navbar.css";
-
-const Navbar = ({ showNav }) => {
+import { navContext } from "../Context/navContext";
+const Navbar = () => {
   const { lang } = useContext(languageContext);
+  const { showNav, setShowNav } = useContext(navContext);
   const scrollToId = (e) => {
     document
       .getElementById(e.target.dataset.to)
       .scrollIntoView({ behavior: "smooth" }, true);
-    document.querySelector(".menu-clicked").classList.remove("menu-clicked");
+    setShowNav(false);
   };
   const sections = [
     {
@@ -31,7 +32,6 @@ const Navbar = ({ showNav }) => {
       linkTo: "skills-section",
     },
   ];
-
 
   return (
     <nav>

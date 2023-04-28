@@ -1,17 +1,16 @@
-import React from "react";
-import './contact-btn.css'
+import React, { useContext } from "react";
+import "./contact-btn.css";
+import { showContactContext } from "../Context/showContactContext";
 
-const ContactButton = ({textContent, fromNavigation}) => {
-
+const ContactButton = ({ textContent, fromNavigation }) => {
+  const { setShowContactForm } = useContext(showContactContext);
   const toggleNav = () => {
-    // dispatch(navUiActions.toggle());
-    document.querySelector('.menu-clicked').classList.remove('menu-clicked');
-  }
+    setShowContactForm(true)
+  };
 
   return (
     <button
       onClick={() => {
-        // dispatch(contactUIShowActions.toggle());
         fromNavigation && toggleNav();
       }}
       className="contact-btn"

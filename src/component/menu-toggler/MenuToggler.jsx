@@ -1,8 +1,9 @@
-import React, { useRef } from "react";
+import React, { useRef, useContext } from "react";
+import { navContext } from "../Context/navContext";
 import "./menu-toggler.css";
-const MenuToggler = ({ showNav, setShowNav }) => {
+const MenuToggler = () => {
   const togglerRef = useRef(null);
-
+  const { showNav, setShowNav } = useContext(navContext);
   return (
     <div className="menu-icon-container">
       <div

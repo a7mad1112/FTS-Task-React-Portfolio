@@ -8,6 +8,7 @@ import {
   ReposSection,
   SkillsSection,
 } from "../index";
+import ContactForm from "../contact-form/ContactForm";
 const Layout = () => {
   return (
     <>
@@ -17,6 +18,7 @@ const Layout = () => {
       <ProjectsSection />
       <ReposSection />
       <SkillsSection />
+      <ContactForm />
       <Footer />
     </>
   );

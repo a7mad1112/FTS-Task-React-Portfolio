@@ -8,7 +8,6 @@ import { languageContext } from "../Context/languageContext";
 
 
 const Header = () => {
-  const [showNav, setShowNav] = useState(false);
   const { lang } = useContext(languageContext);
   return (
     <header>
@@ -31,8 +30,8 @@ const Header = () => {
           </div>
 
           <div className="ms-auto col-md-6 col-sm-2 col-2 toggler-parent">
-            <Navbar showNav={showNav} />
-            <MenuToggler showNav={showNav} setShowNav={setShowNav} />
+            <Navbar />
+            <MenuToggler />
           </div>
         </div>
       </div>

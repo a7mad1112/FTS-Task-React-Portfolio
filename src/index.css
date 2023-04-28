@@ -67,28 +67,28 @@ p {
 
 /* Light mode Styling */
 .light {
-  background-color: #ffffff !important;
+  background-color: var(--white-color) !important;
 }
 
 .light header {
-  background-color: #ffffff !important;
+  background-color: var(--white-color) !important;
 }
 
 .light header nav ul li {
-  color: #001858;
+  color: var(--blue-color);
 }
 
 .light .contact-btn::before {
-  border-color: #282c35;
+  border-color: var(--black-color);
 }
 
 .light .contact-btn::after {
-  border-color: #282c35;
+  border-color: var(--black-color);
 }
 
 .light .chose-lang {
-  border-color: #001858;
-  color: #001858;
+  border-color: var(--blue-color);
+  color: var(--blue-color);
 }
 
 .light .toggle-display-mode .ball {
@@ -102,11 +102,11 @@ p {
 }
 
 .light p {
-  color: #172c66;
+  color: var(--blue-color);
 }
 
 .light .icon-event:hover {
-  color: #172c66;
+  color: var(--blue-color);
 }
 
 .light .top-repo {
@@ -119,27 +119,27 @@ p {
 }
 
 .light .skill:hover {
-  background-color: #fff;
+  background-color: var(--white-color);
 }
 
 .light .skill span {
-  color: #3b5bdb;
+  color: var(--blue-color);
 }
 
 .light footer {
-  border-top: 1px solid #001858;
+  border-top: 1px solid var(--blue-color);
 }
 
 .light .isBorder {
-  border-color: #001858;
+  border-color: var(--blue-color);
 }
 
 .light .menu-icon span {
-  background-color: #001858;
+  background-color: var(--blue-color);
 }
 
 .light .menu-icon span {
-  background-color: #001858 !important;
+  background-color: var(--blue-color) !important;
 }
 
 @media (max-width: 850px) {
@@ -180,17 +180,17 @@ html[lang="ar"] .toggle-display-mode .ball {
   background-color: #f6f6f6;
 }
 ::-webkit-scrollbar-thumb {
-  background-color: #4665dd;
+  background-color: var(--blue-color);
   /* border-radius: 3px; */
 }
 ::-webkit-scrollbar-thumb:hover {
-  background-color: #2845c6;
+  background-color: var(--blue-color);
 }
 
 
 ::-webkit-scrollbar-button {
     display: block;
-    background-color: #4665dd;
+    background-color: var(--blue-color);
     background-repeat: no-repeat;   
     background-size: 50%;
     background-position: center;
