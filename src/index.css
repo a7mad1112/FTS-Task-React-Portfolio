@@ -211,3 +211,38 @@ html[lang="ar"] .toggle-display-mode .ball {
 ::-webkit-scrollbar-button:vertical:end:decrement {
     background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ee/Chevron-down.svg');   
 }
+
+/* Animations */
+
+
+header {
+  animation: nav-load 800ms ease-out;
+}
+
+@keyframes nav-load {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+h2 {
+  animation: article-load 1200ms ease-in 1000ms;
+  animation-fill-mode: forwards;
+  transform: translateY(-20px);
+  opacity: 0;
+}
+
+@keyframes article-load {
+  0% {
+    transform: translateY(-20px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

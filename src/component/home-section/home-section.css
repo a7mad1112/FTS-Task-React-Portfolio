@@ -4,6 +4,10 @@
   height: fit-content;
 }
 
+
+.main-section .text {
+}
+
 @media (max-width: 1200px) {
   .hero-img {
     width: 100%;

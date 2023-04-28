@@ -1,32 +1,74 @@
-import React, { useContext } from 'react'
-import SocialIcons from '../social-icons/SocialIcons'
-import ContactButton from './../contact-button/ContactButton';
-import { languageContext } from './../Context/languageContext';
-import './home-section.css'
+import React, { useContext, useState } from "react";
+import SocialIcons from "../social-icons/SocialIcons";
+import ContactButton from "./../contact-button/ContactButton";
+import { languageContext } from "./../Context/languageContext";
+import "./home-section.css";
+import Typewriter from "typewriter-effect";
 
 const HomeSection = () => {
+  const [writerTitle] = useState({
+    titleOne: "Hi",
+    titleTwo: "I'm",
+    titleThree: "Coding",
+  });
+
   const { lang } = useContext(languageContext);
   return (
     <section className="main-section py-5">
       <div className="container pt-4 ">
         <div className="row">
-          <div
-            className="col-md-6 col-sm-12"
-          >
+          <div className="col-md-6 col-sm-12">
             <article>
-              <h1 className="gradient-text fw-bold">{lang === 'en' ? 'Hey! I Am' : 'أهلا! أنا'}</h1>
-              <h1 className="gradient-text fw-bold">{lang === 'en' ? 'AHMED ALAWNEH' : 'أحمد علاونة'}</h1>
+              {/* <h1 className="gradient-text fw-bold">
+                {lang === "en" ? "Hey! I Am" : "أهلا! أنا"}
+              </h1>
+              <h1 className="gradient-text fw-bold">
+                {lang === "en" ? "AHMED ALAWNEH" : "أحمد علاونة"}
+              </h1> */}
+
+              <h1 className="gradient-text fw-bold">
+                <Typewriter
+                  options={{
+                    autoStart: true,
+                    loop: true,
+                    delay: 40,
+                    strings: [
+                      "Hey! I Am<br/>Ahmed Alawneh",
+                      "Hello! I Am<br/>a Creative Front-End Developer",
+                      "Greetings! I Am<br/>I Create Beautiful Websites",
+                    ],
+                  }}
+                />
+              </h1>
+              <div className="text gradient-text"></div>
+
+              {/* <h1 className="gradient-text fw-bold">
+                {lang === "en" ? (
+                  <>
+                    Hey! I Am
+                    <br />
+                    AHMED ALAWNEH
+                  </>
+                ) : (
+                  <>
+                    أهلا! أنا
+                    <br />
+                    أحمد علاونة
+                  </>
+                )}
+              </h1> */}
               <p className="mt-3">
-                {
-                lang === 'en' ? 'Front-End Web Developer with high level of experience in web development, producting the quality work.'
-                : 'مطور ويب اقدر اساعدك ببناء موقع احترافي بجودة عالية'
-                }
+                {lang === "en"
+                  ? "Front-End Web Developer with high level of experience in web development, producting the quality work."
+                  : "مطور ويب اقدر اساعدك ببناء موقع احترافي بجودة عالية"}
               </p>
               <div className="mt-5">
-                <ContactButton textContent={lang === 'en' ? "Hire Me" : 'وظفني'} />
+                <ContactButton
+                  textContent={lang === "en" ? "Hire Me" : "وظفني"}
+                />
               </div>
             </article>
-            <div className="mt-3" style={{fontSize: "1.7rem"}}>
+            <div className="mt-3" style={{ fontSize: "1.7rem" }}>
               <SocialIcons isBorder={false} />
             </div>
           </div>
@@ -829,7 +871,7 @@ const HomeSection = () => {
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HomeSection
+export default HomeSection;
