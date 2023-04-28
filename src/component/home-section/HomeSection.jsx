@@ -31,7 +31,7 @@ const HomeSection = () => {
                   options={{
                     autoStart: true,
                     loop: true,
-                    delay: 40,
+                    delay: 60,
                     strings: [
                       "Hey! I Am<br/>Ahmed Alawneh",
                       "Hello! I Am<br/>a Creative Front-End Developer",

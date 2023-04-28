@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="m-auto" style={{ fontSize: "1.2rem" }}>
           <SocialIcons isBorder={true} />
         </div>
-        <Link to="https://t.me/ProgrammerLevi">
+        <Link to="https://t.me/ProgrammerLevi" target="_blank">
           {
             lang === 'en' ? (
               "Join my Telegram channel for web development tips and resources"
