@@ -1,0 +1,34 @@
+.hero-img svg {
+  width: 80%;
+  margin-bottom: auto;
+  height: fit-content;
+}
+
+@media (max-width: 1200px) {
+  .hero-img {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .main-section article h1 {
+    font-size: 28px;
+  }
+  .hero-img {
+    width: 85%;
+    margin-top: 30px !important;
+  }
+}
+
+@media (max-width: 567px) {
+  .main-section article h1 {
+    font-size: 25px;
+  }
+  .main-section article p {
+    font-size: 15px;
+  }
+  .hero-img {
+    width: 100%;
+  }
+}

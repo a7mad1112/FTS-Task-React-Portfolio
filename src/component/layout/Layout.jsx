@@ -1,9 +1,10 @@
 import React from "react";
-import { Header } from "../index";
+import { Header, HomeSection } from "../index";
 const Layout = () => {
   return (
     <>
       <Header />
+      <HomeSection />
     </>
   );
 };

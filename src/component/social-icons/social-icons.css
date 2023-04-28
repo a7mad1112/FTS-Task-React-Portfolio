@@ -1,0 +1,33 @@
+
+.social-icons {
+  width: fit-content;
+}
+
+.isBorder {
+  border-top: 1px dashed var(--white-color);
+}
+
+.icon-event {
+  font-size: 1.7em;
+  font-weight: normal;
+  color: var(--blue-color);
+  margin: 0 18px;
+  transition: 0.4s;
+}
+
+.icon-event:hover {
+  color: var(--white-color);
+  transform: scale(1.2);
+}
+
+@media (max-width: 767px) {
+  .social-icons a {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 567px) {
+  .social-icons a {
+    font-size: 1.3em;
+  }
+}
