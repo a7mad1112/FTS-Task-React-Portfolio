@@ -9,7 +9,7 @@ const LanguageToggler = () => {
     document
       .querySelector("html")
       .setAttribute("dir", lang === "en" ? "ltr" : "rtl");
-  }, []);
+  }, [lang]);
 
   const handleClick = () => {
     if (lang === "en") {
