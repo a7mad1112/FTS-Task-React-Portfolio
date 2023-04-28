@@ -170,3 +170,44 @@ html[lang="ar"] .toggle-display-mode .ball {
   background-color: var(--black-color);
   color: var(--white-color);
 }
+
+
+/* Scroll bar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background-color: #f6f6f6;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #4665dd;
+  /* border-radius: 3px; */
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #2845c6;
+}
+
+
+::-webkit-scrollbar-button {
+    display: block;
+    background-color: #4665dd;
+    background-repeat: no-repeat;   
+    background-size: 50%;
+    background-position: center;
+}
+
+::-webkit-scrollbar-button:vertical:start:increment {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7e/Chevron-up.svg');   
+}
+
+::-webkit-scrollbar-button:vertical:start:decrement {
+    display: none;
+}
+
+::-webkit-scrollbar-button:vertical:end:increment {
+    display: none;
+}
+
+::-webkit-scrollbar-button:vertical:end:decrement {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/ee/Chevron-down.svg');   
+}
