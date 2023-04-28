@@ -1,4 +1,5 @@
 
 import Header from './header/Header';
 import HomeSection from './home-section/HomeSection';
-export { Header, HomeSection };
+import InfoSection from './info-section/InfoSection';
+export { Header, HomeSection, InfoSection };

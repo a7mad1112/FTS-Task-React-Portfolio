@@ -1,0 +1,40 @@
+.info p {
+  font-size: 16px;
+  margin: 5px 0;
+  font-weight: bold;
+}
+
+.info-heading {
+  position: relative;
+}
+.info-heading::after {
+  content: '';
+  position: absolute;
+  left: -8px;
+  top: 0;
+  background-color: var(--white-color);
+  width: 3px;
+  height: 100%;
+}
+html[lang='ar'] .info-heading::after {
+  top: 2px;
+  right: -10px;
+}
+.resume-download {
+  margin-top: 35px;
+  border-radius: 8px;
+  display: inline-block;
+  background-color: var(--white-color);
+  color: var(--blue-color);
+  transition: 0.4s;
+  border: none;
+  font-size: 17px;
+  padding: 10px 12px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.resume-download:hover {
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+
