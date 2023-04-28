@@ -1,0 +1,26 @@
+footer {
+  border-top: 1px solid var(--white-color);
+}
+
+.top-arrow i {
+  font-size: 35px;
+  color: var(--blue-color);
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.top-arrow i:hover {
+  transform: scale(1.2);
+}
+
+footer a {
+  color: var(--white-color);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 1.2rem;
+  display: inline-block;
+}
+footer a:hover {
+  color: var(--white-color);
+}

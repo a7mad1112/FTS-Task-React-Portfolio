@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Footer,
   Header,
   HomeSection,
   InfoSection,
@@ -16,6 +17,7 @@ const Layout = () => {
       <ProjectsSection />
       <ReposSection />
       <SkillsSection />
+      <Footer />
     </>
   );
 };

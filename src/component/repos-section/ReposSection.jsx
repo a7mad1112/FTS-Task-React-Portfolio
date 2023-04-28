@@ -37,7 +37,9 @@ const ReposSection = () => {
   return (
     <section className="repos-section text-center mb-5">
       <div className="container">
-        <h2 className="section-heading text-white">Top Repositories</h2>
+        <h2 className="section-heading text-white">
+          {lang === "en" ? "Top Repositories" : " المشاريع مع اعلى عدد نجوم"}
+        </h2>
         <div className="d-flex align-items-center justify-content-center">
           {repos.map((repo) => (
             <Link
