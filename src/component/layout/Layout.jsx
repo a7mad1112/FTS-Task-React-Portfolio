@@ -1,5 +1,11 @@
 import React from "react";
-import { Header, HomeSection, InfoSection, ProjectsSection } from "../index";
+import {
+  Header,
+  HomeSection,
+  InfoSection,
+  ProjectsSection,
+  SkillsSection,
+} from "../index";
 const Layout = () => {
   return (
     <>
@@ -7,6 +13,7 @@ const Layout = () => {
       <HomeSection />
       <InfoSection />
       <ProjectsSection />
+      <SkillsSection />
     </>
   );
 };

@@ -9,9 +9,6 @@ const Project = ({ project }) => {
   const { lang } = useContext(languageContext);
   return (
     <div
-      // to={{ pathname: project.deploymentLink }}
-      // rel="noreferrer"
-      // target="_blank"
       className="project my-5 rounded-2 "
     >
       <div className="project-img w-100">
