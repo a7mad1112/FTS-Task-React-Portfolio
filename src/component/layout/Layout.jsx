@@ -4,6 +4,7 @@ import {
   HomeSection,
   InfoSection,
   ProjectsSection,
+  ReposSection,
   SkillsSection,
 } from "../index";
 const Layout = () => {
@@ -13,6 +14,7 @@ const Layout = () => {
       <HomeSection />
       <InfoSection />
       <ProjectsSection />
+      <ReposSection />
       <SkillsSection />
     </>
   );
