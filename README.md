@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# FTS-Task-React-Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## About
+This repository contains the source code for a small portfolio website that showcases my skills as a front-end developer. The website is built using React, and is designed to be both attractive and responsive.
 
-## Available Scripts
+## Key Features
+- Displaying top GitHub Repos: Displaying top GitHub repositories directly on the website, which allows visitors to easily see my best work and get a sense of my coding style and expertise. The two most popular repositories are automatically selected based on stars, and are displayed with links to live sites and code repositories. This feature also demonstrates my ability to work with popular tools and technologies and contribute to open-source projects, adding significant value and distinguishing the website from others.
+- Hosting: The website is deployed using Netlify, making it easy to share and access online.
+- Version Control: The project is managed using Git and GitHub, allowing me to keep track of changes made to the code and collaborate with others.
+- Accessibility: The website is designed with web accessibility guidelines and best practices in mind, ensuring that it is accessible to users with disabilities.
+- SEO: The website is optimized for search engines using a variety of techniques to improve its visibility and ranking on search engine results pages.
 
-In the project directory, you can run:
+## Additional Features
+In addition to the key features mentioned above, the website also includes:
 
-### `npm start`
+- Dark/Light Mode: Users can switch between dark and light mode depending on their preferences.
+- About Me: A section providing an overview of my background, skills, and interests.
+- Projects: A showcase of my past projects, and links to live sites or code repositories.
+- Skills: A list of my technical skills, tools, and programming languages.
+- Resume/CV: A downloadable version of my resume or CV.
+- Contact: A form and/or email address for potential clients or employers to contact me.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Author
+- Name: Ahmed Alawneh
+- Email: ahmalawneh79@gmail.com
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Contributor
+- Name: Faris Abuali
 
-### `npm test`
+## Acknowledgements
+I am grateful to Foothill Technology Solutions for providing me with the opportunity to participate in this internship cycle, and for their support throughout the development of this project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![foothil](https://user-images.githubusercontent.com/93674478/235299247-ce235f9e-cfd2-43d3-a769-3b201c341d12.jpg)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
